@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as r,V as i}from"./chunks/framework.dnpgIXFM.js";const f=JSON.parse('{"title":"Summary","description":"","frontmatter":{},"headers":[],"relativePath":"pages/index.md","filePath":"pages/index.md"}'),s={name:"pages/index.md"},l=i("",2),m=[l];function t(u,y,o,d,n,p){return r(),e("div",null,m)}const g=a(s,[["render",t]]);export{f as __pageData,g as default};

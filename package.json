@@ -2,9 +2,14 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "deploy": "gh-pages -d .vitepress/dist"
   },
   "dependencies": {
+    "markdown-it-katex": "^2.0.3",
     "vitepress": "^1.0.0-rc.40"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

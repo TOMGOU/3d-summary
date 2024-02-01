@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
+import MarkdownItKatex from 'markdown-it-katex'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   text: "3d-summary-notes",
   description: "A VitePress Site",
-  base: '/3d-summary-notes/',
+  base: '/3d-summary/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -227,9 +228,10 @@ export default defineConfig({
         ]
       },
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+  },
+  markdown: {
+    config: (md) => {
+      md.use(MarkdownItKatex)
+    }
   }
 })

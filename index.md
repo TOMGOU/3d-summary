@@ -8,8 +8,8 @@ hero:
   tagline: My great knowledge structure tree
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Home
+      link: /
     - theme: alt
       text: Pages
       link: /pages/index

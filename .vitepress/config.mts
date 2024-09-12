@@ -201,6 +201,14 @@ export default defineConfig({
             text: 'fisheye',
             link: '/pages/pointCloud/fisheye/',
           },
+          {
+            text: 'transform',
+            link: '/pages/pointCloud/transform/',
+          },
+          {
+            text: '3d-tiles-renderer',
+            link: '/pages/pointCloud/3d-tiles-renderer/',
+          },
         ]
       },
       {
